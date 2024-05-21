@@ -19,4 +19,15 @@ This is my porfolio website!
   As the Head of the Marketing Team, I want to have access to a dashboard that include the best insights in order to collaborate with the best UK Youtuber in 2024.
   This dashboard should include strong metrics like the average views, subscribers engagement and many more. I want to choose the best performing UK Youtuber to collaborate with to penetrate the UK market.
 
+## Data Source
+
+  The data is coming from a CSV file sourced from Kaggle. Url: [https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download].
+
+## Steps of the project
+
+  - Design the dashboard
+  - Developement (Explore data, Clean data and Validate data)
+  - Testing
+  - Analyzing data
+
 
