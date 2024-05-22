@@ -71,7 +71,17 @@ This is my porfolio website!
 | Excel | To explore data |
 | SQL Server | To clean, validate and analyze the data |
 | Power Bi | To create an interactive visualization |
+| Google Sheets | To manipulate and calculate information insights |
 | Github | To host and present the project documentation |
+
+# Developement
+
+## Steps of the project
+
+  - This are the main steps that will be followed in order to complete the project:
+
+    1. Explore the data with Excel
+    2. 
 
 
 
