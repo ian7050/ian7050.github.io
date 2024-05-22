@@ -59,8 +59,19 @@ This is my porfolio website!
   
     1. Table with all the pertinent information about each Youtube channels.
     2. A Treemap with the top 10 Youtubers.
-    3. Scorecards with strong insights that may reveal important information.
+    3. Scorecards with strong insights that maight reveal important information.
     4. Horizontal bar chart
+
+## Tools
+
+  Which tool will be used to complete this project?
+
+| Tools | Purpose |
+| Excel | To explore data |
+| SQL Server | To clean, validate and analyze the data |
+| Power Bi | To create an interactive visualization |
+| Github | To host and present the project documentation |
+
 
 
     
