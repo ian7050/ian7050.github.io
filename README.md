@@ -55,7 +55,7 @@ This is my porfolio website!
 
 ## Dashboard Mockup
 
-  Based on the information provided we need to create a dashboard with the following visuals:
+  - Based on the information provided we need to create a dashboard with the following visuals:
   
     1. Table with all the pertinent information about each Youtube channels.
     2. A Treemap with the top 10 Youtubers.
