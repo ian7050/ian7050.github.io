@@ -67,6 +67,7 @@ This is my porfolio website!
   Which tool will be used to complete this project?
 
 | Tools | Purpose |
+| --- | --- |
 | Excel | To explore data |
 | SQL Server | To clean, validate and analyze the data |
 | Power Bi | To create an interactive visualization |
