@@ -71,7 +71,7 @@ This is my porfolio website!
 | Excel | To explore data |
 | SQL Server | To clean, validate and analyze the data |
 | Power Bi | To create an interactive visualization |
-| Google Sheets | To manipulate and calculate information insights |
+| Google Sheets | To manipulate and calculate information from insights |
 | Github | To host and present the project documentation |
 
 # Developement
@@ -80,8 +80,19 @@ This is my porfolio website!
 
   - This are the main steps that will be followed in order to complete the project:
 
-    1. Explore the data with Excel
-    2. 
+    1. Load data to Excel.
+    2. Explore the data in Excel.
+    3. Load the data into SQL Server.
+    4. Clean the data with SQL.
+    5. Test the data with SQL.
+    6. Load the data into Power Bi.
+    7. Visualize the data in Power Bi.
+    8. Compare Power Bi insights with Excel insights done with calculation.
+    9. Provide a recommendation based on insights.
+    10. Write documentation in Github and conslusions.
+    11. Publish data in Github.
+   
+
 
 
 
