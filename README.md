@@ -44,7 +44,7 @@ This is my porfolio website!
 # Design 
 
 ## Dashboard requirements
-  - What are the dashboard requirements based on the information provided?
+  - What are the dashboard requirements based on the information provided:
 
     1. Who are the top 10 YouTubers with the most subscribers?
     2. Which 3 channels have uploaded the most videos?
