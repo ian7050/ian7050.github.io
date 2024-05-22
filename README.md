@@ -91,6 +91,7 @@ This is my porfolio website!
     9. Provide a recommendation based on insights.
     10. Write documentation in Github and conslusions.
     11. Publish data in Github.
+    
    
 
 
