@@ -91,6 +91,43 @@ This is my porfolio website!
     9. Provide a recommendation based on insights.
     10. Write documentation in Github and conslusions.
     11. Publish data in Github.
+
+## Data Exploration
+  - In this section, we will take a look at the raw dataset by using Excel. We will identify the errors, missplealled words, weird characters, etc.
+
+  - During the data exploration we identified the following observations:
+    1. We observe that some columns names might be in a different language.
+    2. Some of the columuns are important for our project.
+    3. It seems that the channel id and channel name is separated with an @.
+    4. Some of the columns present in the dataset are unessesary for our project.
+   
+## Data Cleaning
+  - SQL Server Management (or SSMS) is used un order to clean data.
+
+  - This are the step to follow in order to clean the data properly for our project:
+    1. Remove all the uncesserary columns.
+    2. Extract the channel name from the first column.
+    3. Rename the columns names.
+
+## Data Transformation and Quality Check
+  - SQL Server Management (or SSMS) is used un order to transform and check the data.
+
+  - This are the step to follow in order to transform and check the quality of the data for our project:
+    1. Do a Row count test.
+    2. Do a column count test.
+    3. Check for null column. It is important to have 0 null columns.
+    4. Check that all columns have the correct data type
+   
+    
+
+
+
+  
+   
+
+
+  
+    
     
    
 
