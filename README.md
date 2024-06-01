@@ -113,7 +113,7 @@ This is my porfolio website!
     6. Do a data type check if the correct data type is assign to the correct field.
     7. Do a null check. It's important to have a complete dataset without any null data.
 
-### SQL Query 
+### SQL Queries
 ```sql
 /*
 1.Selecting colums we need for the project
@@ -132,17 +132,6 @@ This is my porfolio website!
 			CHARINDEX('@', NOMBRE),
 			NOMBRE
 		from
-			top_uk_youtubers_2024;
-
-3.Renaming Youtube channels colum name and creating a view with all data cleaned
-
-		CREATE VIEW view_uk_youtubers_2024 AS
-		SELECT 
-			CAST(SUBSTRING(NOMBRE,1,CHARINDEX('@', NOMBRE)-1) AS varchar(100)) AS channel_name,
-			total_subscribers,
-			total_views,
-			total_videos
-		FROM
 			top_uk_youtubers_2024;
 
 ```
@@ -187,6 +176,21 @@ having
 	Count(*) > 1
 
 ```
+### Create a SQL View 
+```sql
+/*
+1. Renaming Youtube channels colum name and creating a view with all data cleaned
+
+		CREATE VIEW view_uk_youtubers_2024 AS
+		SELECT 
+			CAST(SUBSTRING(NOMBRE,1,CHARINDEX('@', NOMBRE)-1) AS varchar(100)) AS channel_name,
+			total_subscribers,
+			total_views,
+			total_videos
+		FROM
+			top_uk_youtubers_2024;
+```
+
 
     
 
