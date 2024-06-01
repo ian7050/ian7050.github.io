@@ -113,7 +113,9 @@ This is my porfolio website!
     6. Do a data type check if the correct data type is assign to the correct field.
     7. Do a null check. It's important to have a complete dataset without any null data.
 
-### SQL Queries
+### Clean and Transform the data
+
+#### Select columns
 ```sql
 /*
 1.Selecting colums we need for the project
@@ -125,7 +127,7 @@ This is my porfolio website!
 			total_videos
 		from 
 			top_uk_youtubers_2024;
-	
+
 2.Extracting Youtube Channels
 
 		select
@@ -135,6 +137,8 @@ This is my porfolio website!
 			top_uk_youtubers_2024;
 
 ```
+
+### Testing and Quality Check
 ```sql
 /*
 1. Row count test
