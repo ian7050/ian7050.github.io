@@ -101,38 +101,92 @@ This is my porfolio website!
     3. It seems that the channel id and channel name is separated with an @.
     4. Some of the columns present in the dataset are unessesary for our project.
    
-## Data Cleaning
+## Data Cleaning, Transfomration and Quality Check
   - SQL Server Management (or SSMS) is used un order to clean data.
 
   - This are the step to follow in order to clean the data properly for our project:
-    1. Remove all the uncesserary columns.
+    1. Select only the columns that are necessary for the project.
     2. Extract the channel name from the first column.
-    3. Rename the columns names.
+    3. Rename the column names.
+    4. Do a row check to verify if there's 100 rows of data.
+    5. Do a column check id there'is 4 columns fields.
+    6. Do a data type check if the correct data type is assign to the correct field.
+    7. Do a null check. It's important to have a complete dataset without any null data.
 
-## Data Transformation and Quality Check
-  - SQL Server Management (or SSMS) is used un order to transform and check the data.
+### SQL Query 
+```sql
 
-  - This are the step to follow in order to transform and check the quality of the data for our project:
-    1. Do a Row count test.
-    2. Do a column count test.
-    3. Check for null column. It is important to have 0 null columns.
-    4. Check that all columns have the correct data type
-   
-    
+1.Selecting colums we need for the project
 
+		select 
+			NOMBRE,
+			total_subscribers,
+			total_views,
+			total_videos
+		from 
+			top_uk_youtubers_2024;
+	
+2.Extracting Youtube Channels
 
+		select
+			CHARINDEX('@', NOMBRE),
+			NOMBRE
+		from
+			top_uk_youtubers_2024;
 
-  
-   
+3.Renaming Youtube channels colum name and creating a view with all data cleaned
 
+		CREATE VIEW view_uk_youtubers_2024 AS
+		SELECT 
+			CAST(SUBSTRING(NOMBRE,1,CHARINDEX('@', NOMBRE)-1) AS varchar(100)) AS channel_name,
+			total_subscribers,
+			total_views,
+			total_videos
+		FROM
+			top_uk_youtubers_2024;
 
-  
-    
-    
-   
+```
+```sql
 
+1. Row count test
 
+select 
+	COUNT(*) as numbers_of_rows
+from 
+	top_uk_youtubers_2024;
 
+2. Column count test
+
+select 
+	count(*) as columns_count
+from 
+	INFORMATION_SCHEMA.COLUMNS
+where 
+	table_name = 'view_uk_youtubers_2024';
+
+3. Data type test
+
+select 
+	COLUMN_NAME,
+	DATA_TYPE
+from 
+	INFORMATION_SCHEMA.COLUMNS
+where 
+	table_name = 'view_uk_youtubers_2024';
+
+4. Duplicate check
+
+select 
+	channel_name,
+	count(*) as duplicate_count
+from 
+	view_uk_youtubers_2024
+group by
+	channel_name
+having
+	Count(*) > 1
+
+```
 
     
 
