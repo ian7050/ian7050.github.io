@@ -248,9 +248,9 @@ having
 	Count(*) > 1
 ```
 
-#Visualization
+# Visualization
 
-##Results 
+## Results 
 
  - This shows how the final dashboard looks like.
 
