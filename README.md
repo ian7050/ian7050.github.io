@@ -248,6 +248,14 @@ having
 	Count(*) > 1
 ```
 
+#Visualization
+
+##Results 
+
+ - This shows how the final dashboard looks like.
+
+
+
 
 
     
