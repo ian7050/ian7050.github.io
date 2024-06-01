@@ -256,6 +256,10 @@ having
 
 ![PNG of PowerBi Dashboard](assets/images/Top UK Youtubers 2024.PNG)
 
+## DAX Measures
+
+### 1.Total subscribers (M)
+
 
 
 
