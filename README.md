@@ -254,6 +254,8 @@ having
 
  - This shows how the final dashboard looks like.
 
+![PNG of PowerBi Dashboard](assets/images/Top UK Youtubers 2024.png)
+
 
 
 
