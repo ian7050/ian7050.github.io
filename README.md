@@ -115,7 +115,7 @@ This is my porfolio website!
 
 ### SQL Query 
 ```sql
-
+/*
 1.Selecting colums we need for the project
 
 		select 
@@ -147,7 +147,7 @@ This is my porfolio website!
 
 ```
 ```sql
-
+/*
 1. Row count test
 
 select 
