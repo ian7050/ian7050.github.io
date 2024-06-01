@@ -3,7 +3,33 @@
 This is my porfolio website!
 
 
-# Table of contents
+# Table of contents 
+
+- [Objective](#objective)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
+  - [Mockup](#mockup)
+  - [Tools](#tools)
+- [Development](#development)
+  - [Pseudocode](#pseudocode)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+  - [Transform the Data](#transform-the-data)
+  - [Create the SQL View](#create-the-sql-view)
+- [Testing](#testing)
+  - [Data Quality Tests](#data-quality-tests)
+- [Visualization](#visualization)
+  - [Results](#results)
+  - [DAX Measures](#dax-measures)
+- [Analysis](#analysis)
+  - [Findings](#findings)
+  - [Validation](#validation)
+  - [Discovery](#discovery)
+- [Recommendations](#recommendations)
+  - [Potential ROI](#potential-roi)
+  - [Potential Courses of Actions](#potential-courses-of-actions)
+- [Conclusion](#conclusion)
 
 
 
@@ -30,16 +56,18 @@ This is my porfolio website!
   As the Head of the Marketing Team, I want to have access to a dashboard that include the best insights in order to collaborate with the best UK Youtuber in 2024.
   This dashboard should include strong metrics like the average views, subscribers engagement and many more. I want to choose the best performing UK Youtuber to collaborate with to penetrate the UK market.
 
-## Data Source
+# Data Source
 
   The data is coming from a CSV file sourced from Kaggle. Url: [https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download].
 
-## Steps of the project
+# Steps of the project
 
   - Design the dashboard
   - Developement (Explore data, Clean data and Validate data)
   - Testing
+  - Vizualisation
   - Analyzing data
+  - Recommendation
 
 # Design 
 
@@ -56,11 +84,13 @@ This is my porfolio website!
 ## Dashboard Mockup
 
   - Based on the information provided we need to create a dashboard with the following visuals:
-  
-    1. Table with all the pertinent information about each Youtube channels.
-    2. A Treemap with the top 10 Youtubers.
-    3. Scorecards with strong insights that maight reveal important information.
-    4. Horizontal bar chart
+
+|Visuals|
+|---|
+|A Table with the most important information|
+|A Treemap|
+|Scorecard with strong insights|
+|An horizontal bar chart|
 
 ## Tools
 
@@ -76,33 +106,31 @@ This is my porfolio website!
 
 # Developement
 
-## Steps of the project
+## Pseudocode: Steps of the developement section
 
   - This are the main steps that will be followed in order to complete the project:
 
     1. Load data to Excel.
-    2. Explore the data in Excel.
-    3. Load the data into SQL Server.
-    4. Clean the data with SQL.
-    5. Test the data with SQL.
-    6. Load the data into Power Bi.
-    7. Visualize the data in Power Bi.
+    2. Explore data in Excel.
+    3. Load data into SQL Server.
+    4. Clean data with SQL.
+    5. Test data with SQL.
+    6. Load data into Power Bi.
+    7. Visualize data in Power Bi.
     8. Compare Power Bi insights with Excel insights done with calculation.
-    9. Provide a recommendation based on insights.
-    10. Write documentation in Github and conslusions.
-    11. Publish data in Github.
+    9. Provide a recommendation and final conclusions based on insights.
 
 ## Data Exploration
   - In this section, we will take a look at the raw dataset by using Excel. We will identify the errors, missplealled words, weird characters, etc.
 
-  - During the data exploration we identified the following observations:
+  - During the data exploration we identified the followings:
     1. We observe that some columns names might be in a different language.
     2. Some of the columuns are important for our project.
     3. It seems that the channel id and channel name is separated with an @.
     4. Some of the columns present in the dataset are unessesary for our project.
    
 ## Data Cleaning, Transfomration and Quality Check
-  - SQL Server Management (or SSMS) is used un order to clean data.
+  - SQL Server Management (or SSMS) is used un order to clean data, transform and run quality checks.
 
   - This are the step to follow in order to clean the data properly for our project:
     1. Select only the columns that are necessary for the project.
@@ -113,12 +141,13 @@ This is my porfolio website!
     6. Do a data type check if the correct data type is assign to the correct field.
     7. Do a null check. It's important to have a complete dataset without any null data.
 
-### Clean and Transform the data
+### Data Cleaning
 
 #### Select columns
 ```sql
 /*
-1.Selecting colums we need for the project
+
+--Selecting colums we need for the project
 
 		select 
 			NOMBRE,
@@ -127,59 +156,22 @@ This is my porfolio website!
 			total_videos
 		from 
 			top_uk_youtubers_2024;
+```
 
-2.Extracting Youtube Channels
+### Extracting Youtube Channel Names
+
+```sql
+/*
+
+--Extracting Youtube Channels
 
 		select
 			CHARINDEX('@', NOMBRE),
 			NOMBRE
 		from
 			top_uk_youtubers_2024;
-
 ```
 
-### Testing and Quality Check
-```sql
-/*
-1. Row count test
-
-select 
-	COUNT(*) as numbers_of_rows
-from 
-	top_uk_youtubers_2024;
-
-2. Column count test
-
-select 
-	count(*) as columns_count
-from 
-	INFORMATION_SCHEMA.COLUMNS
-where 
-	table_name = 'view_uk_youtubers_2024';
-
-3. Data type test
-
-select 
-	COLUMN_NAME,
-	DATA_TYPE
-from 
-	INFORMATION_SCHEMA.COLUMNS
-where 
-	table_name = 'view_uk_youtubers_2024';
-
-4. Duplicate check
-
-select 
-	channel_name,
-	count(*) as duplicate_count
-from 
-	view_uk_youtubers_2024
-group by
-	channel_name
-having
-	Count(*) > 1
-
-```
 ### Create a SQL View 
 ```sql
 /*
@@ -194,6 +186,68 @@ having
 		FROM
 			top_uk_youtubers_2024;
 ```
+
+### Testing and Quality Checks
+
+### Row count test
+```sql
+/*
+
+--Row count test
+
+select 
+	COUNT(*) as numbers_of_rows
+from 
+	top_uk_youtubers_2024;
+
+```
+
+### Column count test
+```sql
+/*
+
+--Column count test
+
+select 
+	count(*) as columns_count
+from 
+	INFORMATION_SCHEMA.COLUMNS
+where 
+	table_name = 'view_uk_youtubers_2024';
+```
+
+### Data Type test
+```sql
+/*
+
+--Data type test
+
+select 
+	COLUMN_NAME,
+	DATA_TYPE
+from 
+	INFORMATION_SCHEMA.COLUMNS
+where 
+	table_name = 'view_uk_youtubers_2024';
+```
+
+### Duplicates Check
+```sql
+/*
+
+--Duplicates check
+
+select 
+	channel_name,
+	count(*) as duplicate_count
+from 
+	view_uk_youtubers_2024
+group by
+	channel_name
+having
+	Count(*) > 1
+```
+
 
 
     
