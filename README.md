@@ -372,8 +372,20 @@ For this analysis, our client asked us to anwsers the following questions :
  |3|Dua Lipa|57.62|
 
  ### Top 3 Youtube channels with the highest views per subscribers ratio
+
+ |Position|Channel Name|Average Views Per Subscribers Ratio|
+ |---|---|---|
+ |1|GRM Daily|1185.79|
+ |2|Nickelodeon UK|1061.04|
+ |3|Disney Junior UK|1031.97|
+ 
  ### Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
 
+ |Position|Channel Name|Subscriber Engagement Rate|
+ |---|---|---|
+ |1|Mark Ronson|343,000|
+ |2|Jessie J|110,416.67|
+ |3|Dua Lipa|104,954.95|
 
 
 
