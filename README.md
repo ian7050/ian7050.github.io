@@ -333,6 +333,7 @@ For this analysis, our client asked us to anwsers the following questions :
 	6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
  ### Top 10 Youtubers with the most subscribers
+ 
  |Position|Channel Name|Total Subscribers (M)|
  |---|---|---|
  |1|NoCopyrightSounds|33.60|
@@ -347,7 +348,21 @@ For this analysis, our client asked us to anwsers the following questions :
  |10|Ali-A|18.90|
  
  ### Top 3 Youtube channels with the most uploaded videos
+
+ |Position|Channel Name|Total videos|
+ |---|---|---|
+ |1|24 News HD|16,5103|
+ |2|Sky News|46,009|
+ |3|BBC News ????|40,179|
+ 
  ### Top 3 Youtube channels with the most views
+
+ |Position|Channel Name|Total Views|
+ |---|---|---|
+ |1|DanTDM|19.78|
+ |2|Dan Rhodes|18.56|
+ |3|Mister Max|16.97|
+ 
  ### Top 3 Youtube channels with the highest average views per video
  ### Top 3 Youtube channels with the highest views per subscribers ratio
  ### Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
