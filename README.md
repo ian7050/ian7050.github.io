@@ -364,6 +364,13 @@ For this analysis, our client asked us to anwsers the following questions :
  |3|Mister Max|16.97|
  
  ### Top 3 Youtube channels with the highest average views per video
+
+ |Position|Channel Name|Average Views Per Video (M)|
+ |---|---|---|
+ |1|Mark Ronson|322.79|
+ |2|Jessie J|59.77|
+ |3|Dua Lipa|57.62|
+
  ### Top 3 Youtube channels with the highest views per subscribers ratio
  ### Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
 
