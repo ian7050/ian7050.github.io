@@ -321,6 +321,36 @@ RETURN viewsPerSubscriber
 
 # Analysis
 
+## Insights findings
+
+For this analysis, our client asked us to anwsers the following questions :
+
+	1. Who are the top 10 YouTubers with the most subscribers?
+	2. Which 3 channels have uploaded the most videos?
+	3. Which 3 channels have the most views?
+	4. Which 3 channels have the highest average views per video?
+	5. Which 3 channels have the highest views per subscriber ratio?
+	6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+ ### Top 10 Youtubers with the most subscribers
+ |Position|Channel Name|Total Subscribers (M)|
+ |---|---|---|
+ |1|NoCopyrightSounds|33.60|
+ |2|DanTDM|28.60|
+ |3|Dan Rhodes|26.50|
+ |4|Miss Katy|24.50|
+ |5|Mister Max|24.40|
+ |6|KSI|24.10|
+ |7|Jelly|23.50|
+ |8|Dua Lipa|23.30|
+ |9|Sidemen|21.00|
+ |10|Ali-A|18.90|
+ 
+ ### Top 3 Youtube channels with the most uploaded videos
+ ### Top 3 Youtube channels with the most views
+ ### Top 3 Youtube channels with the highest average views per video
+ ### Top 3 Youtube channels with the highest views per subscribers ratio
+ ### Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
 
 
 
