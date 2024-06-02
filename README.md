@@ -260,6 +260,7 @@ having
 
 ### 1.Total subscribers (M)
 ```sql
+/*
 Total Subscribers (M) = 
 VAR million = 1000000
 VAR SumOfSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
@@ -270,6 +271,7 @@ RETURN totalSubscribers
 
 ### 2. Total Views (B)
 ```sql
+/*
 Total Views (B) = 
 VAR billion = 1000000000
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
@@ -280,6 +282,7 @@ RETURN totalViews
 
 ### 3. Total Videos
 ```sql
+/*
 Total Videos = 
 VAR totalVideos = SUM(view_uk_youtubers_2024[total_videos])
 
@@ -287,6 +290,7 @@ RETURN totalVideos
 ```
 ### 4. Average Views Per Video (M)
 ```sql
+/*
 Avg views per Video (M) = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalVideos = SUM(view_uk_youtubers_2024[total_videos])
@@ -297,6 +301,7 @@ RETURN finalAvgViewsPerVideo
 ```
 ### 5. Subscribers Engagement
 ```sql
+/*
 Subscriber Engagement Rate = 
 VAR sumOftotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
 VAR sumOfTotalVideos = SuM(view_uk_youtubers_2024[total_videos])
@@ -306,6 +311,7 @@ RETURN subscriberEngagementRate
 ```
 ### 6. Views Per Subscribers 
 ```sql
+/*
 Views per Subscriber = 
 VAR sumOfTotalViews = SUM(view_uk_youtubers_2024[total_views])
 VAR sumOfTotalSubscribers = SUM(view_uk_youtubers_2024[total_subscribers])
