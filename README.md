@@ -7,18 +7,16 @@ This is my porfolio website!
 
 - [Objective](#objective)
 - [Data Source](#data-source)
-- [Stages](#stages)
+- [Steps of the project](#Steps of the project)
 - [Design](#design)
-  - [Mockup](#mockup)
   - [Tools](#tools)
 - [Development](#development)
-  - [Pseudocode](#pseudocode)
+  - [Pseudocode: Steps of the developement section](#Pseudocode: Steps of the developement section)
   - [Data Exploration](#data-exploration)
-  - [Data Cleaning](#data-cleaning)
-  - [Transform the Data](#transform-the-data)
+  - [Data Cleaning, Transfomration and Quality Check](#Data Cleaning, Transfomration and Quality Check)
+  - [Data Cleaning](#Data Cleaning)
   - [Create the SQL View](#create-the-sql-view)
-- [Testing](#testing)
-  - [Data Quality Tests](#data-quality-tests)
+- [Testing and Quality Checks](#Testing and Quality Checks)
 - [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
@@ -187,7 +185,7 @@ This is my porfolio website!
 			top_uk_youtubers_2024;
 ```
 
-### Testing and Quality Checks
+## Testing and Quality Checks
 
 ### Row count test
 ```sql
