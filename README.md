@@ -7,16 +7,17 @@ This is my porfolio website!
 
 - [Objective](#objective)
 - [Data Source](#data-source)
-- [Steps of the project](#Steps of the project)
+- [Steps of the project](#Steps-of-the-project)
 - [Design](#design)
+  - [Dashboard Mockup](#Dashboard-Mockup)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode: Steps of the developement section](#Pseudocode: Steps of the developement section)
   - [Data Exploration](#data-exploration)
-  - [Data Cleaning, Transfomration and Quality Check](#Data Cleaning, Transfomration and Quality Check)
-  - [Data Cleaning](#Data Cleaning)
+  - [Data Cleaning, Transfomration and Quality Check](#Data-Cleaning,-Transfomration-and-Quality-Check)
+  - [Data Cleaning](#Data-Cleaning)
   - [Create the SQL View](#create-the-sql-view)
-- [Testing and Quality Checks](#Testing and Quality Checks)
+- [Testing and Quality Checks](#Testing-and-Quality-Checks)
 - [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
@@ -319,6 +320,7 @@ RETURN viewsPerSubscriber
 ```
 
 # Analysis
+
 
 
 
