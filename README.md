@@ -403,7 +403,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  ##### Breakdown calculation
 
- ##### 1. NoCopyrightSounds
+ # 1. NoCopyrightSounds
 
  Average views = 6,920,000
  Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
