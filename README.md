@@ -387,7 +387,14 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Jessie J|110,416.67|
  |3|Dua Lipa|104,954.95|
 
+ ### Notes
+ 	- For this analysis, we will analyze the following data metrics to determine de portential ROI for our client:
+  1. The Youtube channels with the most subribers
+  2. The Youtube channels with the most total views
+  3. The Youtube channels with the most videos uploaded
+
  ## Validation
+ 
  	
 
 
