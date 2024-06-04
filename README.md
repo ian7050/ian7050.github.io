@@ -387,13 +387,32 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Jessie J|110,416.67|
  |3|Dua Lipa|104,954.95|
 
- ### Notes
- 	- For this analysis, we will analyze the following data metrics to determine de portential ROI for our client:
-  1. The Youtube channels with the most subribers
-  2. The Youtube channels with the most total views
-  3. The Youtube channels with the most videos uploaded
-
  ## Validation
+
+	- For this analysis, we will analyze the Youtube channels with the most subscribers to determine de portential ROI for our client.
+
+ ### Potential ROI for the Youtube channels with the most subscibers.
+
+ #### Variables
+
+ |Variables|Value|
+ |---|---|
+ |Conversion Rate|2%|
+ |Product Cost|5$|
+ |Campaign Cost|50,000$|
+
+ ##### Breakdown calculation
+
+ ##### 1. NoCopyrightSounds
+
+ Average views = 6,920,000
+ Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
+ Potential Revenue per video = 138,400*5$ = 692,000$
+ Net Profit = 692,000 - 50,000 = 642,000$
+
+ 
+
+ 
  
  	
 
