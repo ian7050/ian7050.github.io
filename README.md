@@ -325,12 +325,12 @@ RETURN viewsPerSubscriber
 
 For this analysis, our client asked us to anwsers the following questions :
 
-1. Who are the top 10 YouTubers with the most subscribers?
-2. Which 3 channels have uploaded the most videos?
-3. Which 3 channels have the most views?
-4. Which 3 channels have the highest average views per video?
-5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+-Who are the top 10 YouTubers with the most subscribers?
+-Which 3 channels have uploaded the most videos?
+-Which 3 channels have the most views?
+-Which 3 channels have the highest average views per video?
+-Which 3 channels have the highest views per subscriber ratio?
+-Which 3 channels have the highest subscriber engagement rate per video uploaded?
  
 
  ### 1.Top 10 Youtubers with the most subscribers
