@@ -332,7 +332,7 @@ For this analysis, our client asked us to anwsers the following questions :
 	5. Which 3 channels have the highest views per subscriber ratio?
 	6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
- ### Top 10 Youtubers with the most subscribers
+ ### 1.Top 10 Youtubers with the most subscribers
  
  |Position|Channel Name|Total Subscribers (M)|
  |---|---|---|
@@ -347,7 +347,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |9|Sidemen|21.00|
  |10|Ali-A|18.90|
  
- ### Top 3 Youtube channels with the most uploaded videos
+ ### 2.Top 3 Youtube channels with the most uploaded videos
 
  |Position|Channel Name|Total videos|
  |---|---|---|
@@ -355,7 +355,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Sky News|46,009|
  |3|BBC News ????|40,179|
  
- ### Top 3 Youtube channels with the most views
+ ### 3.Top 3 Youtube channels with the most views
 
  |Position|Channel Name|Total Views|
  |---|---|---|
@@ -363,7 +363,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Dan Rhodes|18.56|
  |3|Mister Max|16.97|
  
- ### Top 3 Youtube channels with the highest average views per video
+ ### 4.Top 3 Youtube channels with the highest average views per video
 
  |Position|Channel Name|Average Views Per Video (M)|
  |---|---|---|
@@ -371,7 +371,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Jessie J|59.77|
  |3|Dua Lipa|57.62|
 
- ### Top 3 Youtube channels with the highest views per subscribers ratio
+ ### 5.Top 3 Youtube channels with the highest views per subscribers ratio
 
  |Position|Channel Name|Average Views Per Subscribers Ratio|
  |---|---|---|
@@ -379,13 +379,16 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Nickelodeon UK|1061.04|
  |3|Disney Junior UK|1031.97|
  
- ### Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
+ ### 6.Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
 
  |Position|Channel Name|Subscriber Engagement Rate|
  |---|---|---|
  |1|Mark Ronson|343,000|
  |2|Jessie J|110,416.67|
  |3|Dua Lipa|104,954.95|
+
+ ## Validation
+ 	
 
 
 
