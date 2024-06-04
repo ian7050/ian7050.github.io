@@ -325,12 +325,13 @@ RETURN viewsPerSubscriber
 
 For this analysis, our client asked us to anwsers the following questions :
 
-	1. Who are the top 10 YouTubers with the most subscribers?
-	2. Which 3 channels have uploaded the most videos?
-	3. Which 3 channels have the most views?
-	4. Which 3 channels have the highest average views per video?
-	5. Which 3 channels have the highest views per subscriber ratio?
-	6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+ 
 
  ### 1.Top 10 Youtubers with the most subscribers
  
@@ -403,7 +404,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  ##### Breakdown calculation
 
- # 1. NoCopyrightSounds
+ ##### 1. NoCopyrightSounds
 
  Average views = 6,920,000
  Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
