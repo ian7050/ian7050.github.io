@@ -374,7 +374,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  #### Results
 
- ![PNG of Youtuber Workbook](assets/images/)
+ ![PNG of Youtuber Workbook](assets/images/youtubers_analysis_workbook_2024.PNG)
 
  ##### 1. NoCopyrightSounds
 
