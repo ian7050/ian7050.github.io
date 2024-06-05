@@ -373,7 +373,8 @@ For this analysis, our client asked us to anwsers the following questions :
  ##### Breakdown calculation
 
  #### Results
- 
+
+ ![PNG of Youtuber Workbook](assets/images/)
 
  ##### 1. NoCopyrightSounds
 
