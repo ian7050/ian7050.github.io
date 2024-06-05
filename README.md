@@ -294,14 +294,14 @@ RETURN viewsPerSubscriber
 
 For this analysis, our client asked us to anwsers the following questions :
 
--Who are the top 10 YouTubers with the most subscribers?
--Which 3 channels have uploaded the most videos?
--Which 3 channels have the most views?
--Which 3 channels have the highest average views per video?
--Which 3 channels have the highest views per subscriber ratio?
--Which 3 channels have the highest subscriber engagement rate per video uploaded?
+1.Who are the top 10 YouTubers with the most subscribers?
+2.Which 3 channels have uploaded the most videos?
+3.Which 3 channels have the most views?
+4.Which 3 channels have the highest average views per video?
+5.Which 3 channels have the highest views per subscriber ratio?
+6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
- ### 1.Top 10 Youtubers with the most subscribers
+### 1.Top 10 Youtubers with the most subscribers
  
  |Position|Channel Name|Total Subscribers (M)|
  |---|---|---|
@@ -316,7 +316,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |9|Sidemen|21.00|
  |10|Ali-A|18.90|
  
- ### 2.Top 3 Youtube channels with the most uploaded videos
+### 2.Top 3 Youtube channels with the most uploaded videos
 
  |Position|Channel Name|Total videos|
  |---|---|---|
@@ -324,7 +324,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Sky News|46,009|
  |3|BBC News ????|40,179|
  
- ### 3.Top 3 Youtube channels with the most views
+### 3.Top 3 Youtube channels with the most views
 
  |Position|Channel Name|Total Views|
  |---|---|---|
@@ -332,7 +332,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Dan Rhodes|18.56|
  |3|Mister Max|16.97|
  
- ### 4.Top 3 Youtube channels with the highest average views per video
+### 4.Top 3 Youtube channels with the highest average views per video
 
  |Position|Channel Name|Average Views Per Video (M)|
  |---|---|---|
@@ -340,7 +340,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Jessie J|59.77|
  |3|Dua Lipa|57.62|
 
- ### 5.Top 3 Youtube channels with the highest views per subscribers ratio
+### 5.Top 3 Youtube channels with the highest views per subscribers ratio
 
  |Position|Channel Name|Average Views Per Subscribers Ratio|
  |---|---|---|
@@ -348,7 +348,7 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Nickelodeon UK|1061.04|
  |3|Disney Junior UK|1031.97|
  
- ### 6.Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
+### 6.Top 3 Youtube channels with the highest subscriber engagement rate per video uploaded
 
  |Position|Channel Name|Subscriber Engagement Rate|
  |---|---|---|
@@ -356,13 +356,13 @@ For this analysis, our client asked us to anwsers the following questions :
  |2|Jessie J|110,416.67|
  |3|Dua Lipa|104,954.95|
 
- ## Validation
+## Validation
 
 - For this analysis, we will analyze the Youtube channels with the most subscribers to determine de portential ROI for our client.
 
- ### Potential ROI for the Youtube channels with the most subscibers.
+### Potential ROI for the Youtube channels with the most subscibers.
 
- #### Variables
+#### Variables
 
  |Variables|Values|
  |---|---|
@@ -370,20 +370,20 @@ For this analysis, our client asked us to anwsers the following questions :
  |Product Cost|5$|
  |Campaign Cost|50,000$|
 
- ##### Breakdown calculation
+#### Breakdown calculation
 
- #### Results
+#### Results
 
  ![PNG of Youtuber Workbook](assets/images/youtubers_analysis_workbook_2024.PNG)
 
- ##### 1. NoCopyrightSounds
+#### 3. NoCopyrightSounds
 
  Average views = 6,920,000
  Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
  Potential Revenue per video = 138,400*5$ = 692,000$
  Net Profit = 692,000 - 50,000 = 642,000$
 
- #### 2. DanTDM
+#### 2. DanTDM
 
  Average views = 5,340,000
  Potential Product Sales per Video = 5,340,000*2% = 106,800 sales
