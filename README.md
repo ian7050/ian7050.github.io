@@ -300,7 +300,6 @@ For this analysis, our client asked us to anwsers the following questions :
 -Which 3 channels have the highest average views per video?
 -Which 3 channels have the highest views per subscriber ratio?
 -Which 3 channels have the highest subscriber engagement rate per video uploaded?
- 
 
  ### 1.Top 10 Youtubers with the most subscribers
  
@@ -365,7 +364,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  #### Variables
 
- |Variables|Value|
+ |Variables|Values|
  |---|---|
  |Conversion Rate|2%|
  |Product Cost|5$|
@@ -390,6 +389,12 @@ For this analysis, our client asked us to anwsers the following questions :
  Potential Revenue per video = 106,800*5$ = 534,000$
  Net Profit = 534,000 - 50,000 = 484,000$
 
+#### 3. Dan Rhodes
+
+ Average views = 11,150,000
+ Potential Product Sales per Video = 11,150,000*2% = 223,000 sales
+ Potential Revenue per video = 223,000*5$ = 1,115,000$
+ Net Profit = 1,115,000 - 50,000 = 1,065,000$
  
 
  
