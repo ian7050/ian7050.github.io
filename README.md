@@ -1,3 +1,4 @@
+
 # Data porfolio
 
 This is my porfolio website!
@@ -381,6 +382,13 @@ For this analysis, our client asked us to anwsers the following questions :
  Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
  Potential Revenue per video = 138,400*5$ = 692,000$
  Net Profit = 692,000 - 50,000 = 642,000$
+
+ #### 2. DanTDM
+
+ Average views = 5,340,000
+ Potential Product Sales per Video = 5,340,000*2% = 106,800 sales
+ Potential Revenue per video = 106,800*5$ = 534,000$
+ Net Profit = 534,000 - 50,000 = 484,000$
 
  
 
