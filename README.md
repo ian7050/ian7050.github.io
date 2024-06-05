@@ -2,38 +2,6 @@
 
 This is my porfolio website!
 
-
-# Table of contents 
-
-- [Objective](#objective)
-- [Data Source](#data-source)
-- [Steps of the project](#Steps-of-the-project)
-- [Design](#design)
-  - [Dashboard Mockup](#Dashboard-Mockup)
-  - [Tools](#tools)
-- [Development](#development)
-  - [Pseudocode: Steps of the developement section](#Pseudocode: Steps of the developement section)
-  - [Data Exploration](#data-exploration)
-  - [Data Cleaning, Transfomration and Quality Check](#Data-Cleaning,-Transfomration-and-Quality-Check)
-  - [Data Cleaning](#Data-Cleaning)
-  - [Create the SQL View](#create-the-sql-view)
-- [Testing and Quality Checks](#Testing-and-Quality-Checks)
-- [Visualization](#visualization)
-  - [Results](#results)
-  - [DAX Measures](#dax-measures)
-- [Analysis](#analysis)
-  - [Findings](#findings)
-  - [Validation](#validation)
-  - [Discovery](#discovery)
-- [Recommendations](#recommendations)
-  - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-courses-of-actions)
-- [Conclusion](#conclusion)
-
-
-
-
-
 # Objective
 
 - What is the main objective of this project ?
@@ -142,7 +110,7 @@ This is my porfolio website!
 
 ### Data Cleaning
 
-#### Select columns
+### Select columns
 ```sql
 /*
 
@@ -390,7 +358,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  ## Validation
 
-	- For this analysis, we will analyze the Youtube channels with the most subscribers to determine de portential ROI for our client.
+- For this analysis, we will analyze the Youtube channels with the most subscribers to determine de portential ROI for our client.
 
  ### Potential ROI for the Youtube channels with the most subscibers.
 
@@ -403,6 +371,9 @@ For this analysis, our client asked us to anwsers the following questions :
  |Campaign Cost|50,000$|
 
  ##### Breakdown calculation
+
+ #### Results
+ 
 
  ##### 1. NoCopyrightSounds
 
