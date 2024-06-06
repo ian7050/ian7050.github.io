@@ -378,7 +378,7 @@ For this analysis, our client asked us to anwsers the following questions :
 
  ![PNG of Excel Youtubers Workbook](assets/images/youtubers_analysis_workbook_2024.PNG)
 
-#### 3. NoCopyrightSounds
+#### 1. NoCopyrightSounds
 
 Average views = 6,920,000
 Potential Product Sales per Video = 6,920,000*2% = 138,400 sales
@@ -404,7 +404,43 @@ The best option based on subscription is Dan Rhodes
 #### SQL Query
 
 ```sql
+*/
 
+-- 1.Defining the variables for the analysis (Conversion Rate, Product Cost, Campaign Cost) 
+DECLARE @conversionRate FLOAT = 0.02;			-- The conversion rate at 2%
+DECLARE @productCost MONEY = 5.0;				-- Product Cost at 5$
+DECLARE @campaignCost MONEY = 50000.0;			-- Campaign Cost at 50,000$
+
+
+-- 2.Create a CTE
+
+WITH ChannelData AS 
+(
+    SELECT 
+        channel_name,
+        total_views,
+        total_videos,
+        ROUND((CAST(total_views AS FLOAT) / total_videos),-4) AS rounded_avg_views_per_video
+    FROM 
+        youtube_db.dbo.view_uk_youtubers_2024)
+
+
+--3. Extract data
+SELECT 
+	channel_name,
+	rounded_avg_views_per_video,
+	(rounded_avg_views_per_video*@conversionRate) AS potential_units_sold_per_video,
+	(rounded_avg_views_per_video*@conversionRate*@productCost) AS potential_revenue_per_video,
+	(rounded_avg_views_per_video*@conversionRate*@productCost)-@campaignCost AS net_profit
+
+FROM 
+	ChannelData
+WHERE 
+	channel_name IN ('NoCopyRightSounds', 'DanTDM', 'Dan Rhodes')
+ORDER BY 
+	net_profit DESC
+
+```
  
  
  	
