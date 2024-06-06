@@ -404,7 +404,7 @@ The best option based on subscription is Dan Rhodes
 #### SQL Query
 
 ```sql
-*/
+/*
 
 -- 1.Defining the variables for the analysis (Conversion Rate, Product Cost, Campaign Cost) 
 DECLARE @conversionRate FLOAT = 0.02;			-- The conversion rate at 2%
