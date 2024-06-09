@@ -3,6 +3,8 @@
 
 This is my porfolio website!
 
+# Table of contents
+
 # Objective
 
 - What is the main objective of this project ?
@@ -55,10 +57,10 @@ This is my porfolio website!
 
 |Visuals|
 |---|
-|A Table with the most important information|
+|A Table|
 |A Treemap|
-|Scorecard with strong insights|
-|An horizontal bar chart|
+|Scorecards|
+|Horizontal bar chart|
 
 ## Tools
 
@@ -98,6 +100,7 @@ This is my porfolio website!
     4. Some of the columns present in the dataset are unessesary for our project.
    
 ## Data Cleaning, Transfomration and Quality Check
+
   - SQL Server Management (or SSMS) is used un order to clean data, transform and run quality checks.
 
   - This are the step to follow in order to clean the data properly for our project:
@@ -170,6 +173,9 @@ from
 
 ```
 
+#### Output
+
+
 ### Column count test
 ```sql
 /*
@@ -183,6 +189,8 @@ from
 where 
 	table_name = 'view_uk_youtubers_2024';
 ```
+
+#### Output
 
 ### Data Type test
 ```sql
@@ -198,6 +206,7 @@ from
 where 
 	table_name = 'view_uk_youtubers_2024';
 ```
+#### Output
 
 ### Duplicates Check
 ```sql
@@ -215,6 +224,7 @@ group by
 having
 	Count(*) > 1
 ```
+#### Output
 
 # Visualization
 
