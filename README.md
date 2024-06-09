@@ -174,6 +174,7 @@ from
 ```
 
 #### Output
+
 ![PNG of Row Count Test](assets/images/Row_Count_Capture.PNG)
 
 ### Column count test
@@ -192,6 +193,8 @@ where
 
 #### Output
 
+![PNG of Column Count Test](assets/images/Column_Count_Capture.PNG)
+
 ### Data Type test
 ```sql
 /*
@@ -206,9 +209,13 @@ from
 where 
 	table_name = 'view_uk_youtubers_2024';
 ```
+
 #### Output
 
+![PNG of Data Type Test](assets/images/Data_Type_Test_Capture.PNG)
+
 ### Duplicates Check
+
 ```sql
 /*
 
@@ -224,7 +231,10 @@ group by
 having
 	Count(*) > 1
 ```
+
 #### Output
+
+![PNG of Duplicate Test](assets/images/Duplicate_Test_Capture.PNG)
 
 # Visualization
 
@@ -451,6 +461,10 @@ ORDER BY
 	net_profit DESC
 
 ```
+
+#### Output
+
+![PNG of Youtubers Workbook](assets/images/Youtubers_Workbook_SQL.PNG)
 
 # Recommendation
 
