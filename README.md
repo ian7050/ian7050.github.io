@@ -441,6 +441,10 @@ ORDER BY
 	net_profit DESC
 
 ```
+
+# Recommendation
+
+ - We found that on a subscription basis, Dan Rhodes is the best option to work with because the Return on Investment [1,065,000$] is greather than the other two options [642,000$ and 484,000$].
  
  
  	
