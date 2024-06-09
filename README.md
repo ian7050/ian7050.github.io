@@ -174,7 +174,7 @@ from
 ```
 
 #### Output
-
+![PNG of Row Count Test](assets/images/Row_Count_Capture.PNG)
 
 ### Column count test
 ```sql
