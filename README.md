@@ -491,7 +491,7 @@ ORDER BY
 # Recommendation
 
  - We found that on a subscription basis, Dan Rhodes is the best option to work with because the Return on Investment [1,065,000$] is greather than the other two options [642,000$ and 484,000$].
- - Is possible to go further by analyzing the expect ROI with the youtubers with the most total views and the most videos uploaded to have a bigger picture on the options that our client have.
+ - Is possible to go further by analyzing the expected ROI with the youtubers with the most total views and the most videos uploaded to have an more exhaustive analysis for our client.
 
 ##### Note
 
