@@ -5,6 +5,28 @@ This is my porfolio website!
 
 # Table of contents
 
+1. [Objective](#objective)
+   - [What is the main objective of this project?](#what-is-the-main-objective-of-this-project)
+   - [What is the decision making support?](#what-is-the-decision-making-support)
+2. [User Assignment](#user-assignment)
+3. [Data Source](#data-source)
+4. [Steps of the Project](#steps-of-the-project)
+5. [Design](#design)
+   - [Dashboard Requirements](#dashboard-requirements)
+   - [Dashboard Mockup](#dashboard-mockup)
+   - [Tools](#tools)
+6. [Development](#development)
+   - [Pseudocode: Steps of the Development Section](#pseudocode-steps-of-the-development-section)
+   - [Data Exploration](#data-exploration)
+   - [Data Cleaning, Transformation, and Quality Check](#data-cleaning-transformation-and-quality-check)
+7. [Visualization](#visualization)
+   - [Results](#results)
+   - [DAX Measures](#dax-measures)
+8. [Analysis](#analysis)
+   - [Insights Findings](#insights-findings)
+   - [Validation](#validation)
+9. [Recommendation](#recommendation)
+
 # Objective
 
 - What is the main objective of this project ?
